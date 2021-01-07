@@ -1,0 +1,9 @@
+Jan 07 14:29:37.293 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 07 14:29:37.293 HYPERVISOR: Started on IP = localhost, TCP port = 41083.
+Jan 07 14:29:37.304 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 07 14:29:37.304 HYPERVISOR: exec_cmd: hypervisor working_dir /home/pedro/GNS3/projects/project/project-files/dynamips 
+Jan 07 14:29:37.304 GENERAL: working_dir=/home/pedro/GNS3/projects/project/project-files/dynamips
+Jan 07 14:29:37.304 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Jan 07 14:29:41.560 HYPERVISOR: exec_cmd: nio create_udp udp-7773fca0-7eae-476d-b627-dec3f6aebe23 10073 127.0.0.1 10072 
+Jan 07 14:29:41.560 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-7773fca0-7eae-476d-b627-dec3f6aebe23 
+Jan 07 14:29:41.575 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-7773fca0-7eae-476d-b627-dec3f6aebe23 1 
